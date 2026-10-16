@@ -1,0 +1,42 @@
+name: ai_camera_client
+description: A production-ready Flutter app for connecting to an AI video server with object detection.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+
+  # HTTP & API
+  http: ^1.1.0
+  dio: ^5.4.0
+
+  # Video Playback
+  flutter_vlc_player: ^7.4.1
+  video_player: ^2.8.1
+  chewie: ^1.7.4
+
+  # UI & Icons
+  cupertino_icons: ^1.0.6
+  cached_network_image: ^3.3.0
+
+  # Utilities
+  intl: ^0.18.1
+  path_provider: ^2.1.1
+  permission_handler: ^11.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
